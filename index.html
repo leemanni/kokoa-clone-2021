@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Welcome to Kooatalk</title>
 </head>
 <body>  
@@ -17,17 +18,17 @@
         </div>
         <div class="status-bar__column">
             <span>110%</span>
-            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-battery-full fa-2x"></i>
             <i class="fas fa-bolt"></i>
         </div>
     </div>
     <header class="Welcome-header">
-        <h1 class="Welcome-header__title">Welcome to Kooatalk Clone</h1>
-        <p class="Welcome-header__text">If yoy have a Kokoa Account, log in your emil or phone number.</p>
+        <h1 class="Welcome-header__title">Welcome to Kokoatalk Clone</h1>
+        <p class="Welcome-header__text">If yoy have a Kokoa Account, log in with emil or phone number.</p>
     </header>
-    <form id='login-form'>
-        <input type="text" placeholder="Email or Phone number"/>
-        <input type="password" placeholder="pasword"/>
+    <form action="friends.html" method="GET" id='login-form'>
+        <input name="username" type="text" placeholder="Email or Phone number"/>
+        <input name="password" type="password" placeholder="pasword"/>
         <input type="submit" value="Log In"/>
         <a href="#">Find Kokoa Account or Password</a>
     </form>

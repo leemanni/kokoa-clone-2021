@@ -1,0 +1,56 @@
+.Welcome-header {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.Welcome-header__text {
+  width: 60%;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+#login-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+/*
+     가상 클래스 선택자 활용 
+     input tag 중에 타입이 submit 이 아닌 것만 아래의 속성이 적용된다!
+     그것이 바로 css :not() 의 기능!
+  */
+#login-form input:not([type="submit"]) {
+  border-bottom: 1.5px solid rgb(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+#login-form input::placeholder {
+  color: rgb(0, 0, 0, 0.4);
+}
+#login-form input:focus {
+  border-color: var(--yellow);
+}
+
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  border-radius: 5px;
+  cursor: pointer;
+  padding-bottom: 20px 0px;
+}
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}

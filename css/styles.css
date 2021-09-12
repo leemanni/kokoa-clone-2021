@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "variable.css";
+/* Components */
+@import "components/status-bar.css";
+/* Screens */
+@import "screens/login.css";
+
+/* styles */
+
+/*
+ font-family 등 과 같이 모든 스크린에
+  적용될 수 있는 스타일을 써놓는게 편함
+ */
+body {
+  font-family: "Open Sans", sans-serif;
+}
