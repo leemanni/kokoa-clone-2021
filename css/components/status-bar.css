@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
 }

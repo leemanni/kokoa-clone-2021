@@ -4,16 +4,17 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/usercomponent.css";
 /* Screens */
 @import "screens/login.css";
-
+@import "screens/friends.css";
 /* styles */
-
 /*
  font-family 등 과 같이 모든 스크린에
   적용될 수 있는 스타일을 써놓는게 편함
  */
 body {
+  color: #2d363e;
   font-family: "Open Sans", sans-serif;
-  height: 1000vh;
 }
