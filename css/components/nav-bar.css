@@ -16,20 +16,7 @@
   position: relative;
   color: #2f363e;
 }
-.nav__notification {
-  background-color: tomato;
-  width: 27px;
-  height: 27px;
-  border-radius: 50%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  position: absolute;
-  left: 15px;
-  bottom: 19px;
-}
+
 .nav__dot {
   position: absolute;
   font-size: 30pt;

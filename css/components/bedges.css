@@ -1,0 +1,34 @@
+.bedge {
+  background-color: tomato;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.nav__notification {
+  position: absolute;
+  left: 15px;
+  bottom: 19px;
+}
+.dot {
+  font-size: 30pt;
+  display: flex;
+  color: tomato;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.screen-header__dot {
+  position: absolute;
+  bottom: 16px;
+  right: -10px;
+}
+.nav__dot {
+  position: absolute;
+  bottom: 28px;
+  left: 30px;
+}
