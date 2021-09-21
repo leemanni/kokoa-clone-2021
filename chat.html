@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <title> Chat w/ Nico - Kokoa Clone</title>
@@ -46,10 +45,39 @@
         <div class="chat__timestamp">
             Thusday,June 30, 2020
         </div>
+        <div class="message-row">
+            <img src="https://avatars.githubusercontent.com/u/3612017?v=4"/>
+            <div class="message-row__content">
+                <span class="message__author">TY</span>
+                <div class="message__info">
+                    <span class="message__buble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__buble">Hi! nice to meet you~</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
 
     </main>
 
-
+    <form class="reply">
+        <div class="reply__colunm">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__colunm">
+            <input type="text" placeholder="Write a message.."/>
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
 
 
     <script src="https://kit.fontawesome.com/27afa53023.js" crossorigin="anonymous"></script>
