@@ -9,11 +9,7 @@
   justify-content: center;
   font-weight: 600;
 }
-.nav__notification {
-  position: absolute;
-  left: 15px;
-  bottom: 19px;
-}
+
 .dot {
   font-size: 30pt;
   display: flex;
