@@ -23,12 +23,12 @@
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
-  color: rgb(0, 0, 0);
+  color: var(--font-color);
 }
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
-  color: rgb(0, 0, 0, 0.5);
+  color: var(--font-color);
 }
 .user-component__avatar-xl {
   height: 80px;
@@ -46,7 +46,7 @@
 }
 
 .user-component__column:nth-child(2) {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--font-color);
   display: flex;
   flex-direction: column;
   /* align-items: flex-end; */

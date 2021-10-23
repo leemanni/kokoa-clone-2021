@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   margin-top: var(--top-margin);
+  color: var(--back-color);
 }
 .alt-header__column {
   width: 33%;

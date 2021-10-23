@@ -1,5 +1,6 @@
 .more-screen .icon-row {
   margin-top: 30px;
+  color: var(--font-color);
 }
 .more-suggestions {
   margin-top: 50px;

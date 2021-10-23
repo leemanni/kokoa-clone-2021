@@ -3,10 +3,10 @@
   padding: 25px 0;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
+  color: var(--font-color);
 }
 .recommended-friends__title {
   font-size: 14px;
-  color: var(--gray);
 }
 .recommended-friends span {
   margin: 120px;
@@ -16,6 +16,7 @@
   font-size: 18px;
 }
 .open-chat {
+  color: var(--font-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;

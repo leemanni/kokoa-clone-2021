@@ -39,7 +39,7 @@
   color: rgb(0, 0, 0, 0.4);
 }
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--back-color);
 }
 
 #login-form input[type="submit"] {
